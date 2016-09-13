@@ -5,6 +5,8 @@ namespace Nardax.Serialization
 {
     public class BinarySerializer<T> : ISerializer<T, byte[]>
     {
+        // Serialisera ett värde med valfri typ
+        
         public byte[] Serialize(T value)
         {
             using (var stream = new MemoryStream())
