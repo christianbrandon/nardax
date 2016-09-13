@@ -8,7 +8,10 @@ namespace Nardax.Serialization
     public class XmlSerializer<T> : ISerializer<T, string>
     {
         public string Serialize(T value)
-        {
+        {xxxxxxxxx
+                xxxxxxxxxxxxxxxxxxxxx
+                xxxxxxxxxxxxxxxxx
+                xxxxxxxxxxxxxxxxxxxxxxx
             // Serialiserar ett värde som xml med valfri typ
             using (var stream = new MemoryStream())
             {
