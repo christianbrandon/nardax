@@ -95,7 +95,7 @@ namespace Nardax.Tests
         }
 
         [TestMethod]
-
+<<<<<<< HEAD
         public void RepeatMe()
         {
             var expected = "käbbelkäbbelkäbbel";
@@ -103,8 +103,8 @@ namespace Nardax.Tests
 
             Assert.AreEqual(expected, result);
 
-        }
 
+=======
         public void RemoveWhiteChars()
         {
             var testString = "i\twill \tsurvive\t";
@@ -113,7 +113,7 @@ namespace Nardax.Tests
             var expected = "iwillsurvive";
 
             Assert.AreEqual(expected, result);
-
+>>>>>>> 458d2e8140c9a03e7a9e45d5ef86d69e3ff3dbbf
         }
     }
 }

@@ -1,6 +1,10 @@
 ﻿using System;
 using System.ComponentModel;
+<<<<<<< HEAD
 using System.Text;
+=======
+using System.Text.RegularExpressions;
+>>>>>>> 458d2e8140c9a03e7a9e45d5ef86d69e3ff3dbbf
 
 namespace Nardax
 {
@@ -43,5 +47,11 @@ namespace Nardax
             return sb.ToString();
         }
             
+
+        public static string RemoveWhiteChars(this string value)
+        {
+            return Regex.Replace(value, "\\s", "");
+        }
+
     }
 }
